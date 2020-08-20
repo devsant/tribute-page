@@ -154,3 +154,31 @@ header {
   font-size: 3rem;
   margin-bottom: 30px;
 }
+
+#main {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* TODO: fix the width */
+
+#img-div img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#img-caption {
+  width: 90%;
+  margin: auto;
+  font-size: 1rem;
+  padding-bottom: 30px;
+}
+
+#tribute-info {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 10%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
