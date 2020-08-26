@@ -164,8 +164,10 @@ header {
 /* TODO: fix the width */
 
 #img-div img {
+  display: block;
   width: 100%;
   padding-bottom: 10px;
+  max-width: 80vw;
 }
 
 #img-caption {
@@ -178,7 +180,43 @@ header {
 #tribute-info {
   width: 50%;
   margin: 0 auto;
-  padding: 0 10%;
+  padding: 0 10% 5% 10%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+#tribute-info h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding: 30px 0;
+}
+
+#tribute-info ul {
+  text-align: left;
+}
+
+#tribute-info ul li {
+  list-style: inside;
+  margin-bottom: 20px;
+}
+
+#tribute-info strong {
+  font-weight: bold;
+}
+
+blockquote {
+  padding: 40px 0;
+}
+
+.quote-cite {
+  font-style: italic;
+  width: 80%;
+  font-weight: lighter;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #204051;
+  text-decoration: none;
 }
